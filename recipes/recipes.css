@@ -1,0 +1,42 @@
+* { 
+  box-sizing: border-box; 
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: rgba(255, 255, 255, 0.87);
+  
+  background-color: #e8e8e8;
+  background-color: #ccc;
+}
+
+.container {
+  background-color: #242424;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 64px;
+}
+
+h1 {
+  text-align: center;
+}
+
+figure {
+  /* //margin: 0 auto; */
+  margin-left: 0;
+}
+
+.group {
+  display: flex;
+}
