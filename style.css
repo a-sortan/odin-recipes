@@ -23,9 +23,11 @@ h1, h2, h3 {
 }
 
 .recipes {
+  /* border: 1px solid grey; */
   max-width: 1200px;
   min-width: 800px;
   margin: 0 auto;
+  padding: 20px;
   display: flex;
   flex-wrap: wrap;
   color: rgba(255, 255, 255, 0.87);
@@ -37,9 +39,10 @@ h1, h2, h3 {
 
 .recipe {
     /* border: 1px solid red; */
-    max-width: 350px;
+    width: 320px;
     max-height: 200px;
-    margin: 8px;
+    height: 180px;
+    margin: 32px;
     display: flex;
     font-size: 12px;
     border-radius: 16px;
@@ -57,5 +60,5 @@ h1, h2, h3 {
 .recipe-body {
     /* border: 1px solid blue; */
     background-color: #242424;
-    padding: 8px;
+    padding: 16px;
 }
